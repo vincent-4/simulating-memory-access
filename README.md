@@ -1,7 +1,7 @@
 # Memory Management Simulator
 
 This simulator helps computer science students and enthusiasts understand memory allocation visually and interactively.
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/IoS2n7F"  ><a href="//imgur.com/a/IoS2n7F"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![Alt text](https://i.imgur.com/5CY5NB6.png)
 
 ## Features
 
