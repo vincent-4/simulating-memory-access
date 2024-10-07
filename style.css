@@ -1,0 +1,136 @@
+/* https://flatuicolors.com */
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f0f4f8; /* Light pastel blue */
+	color: #333333; /* Darker text for contrast */
+	padding: 0;
+	margin: 0;
+	font-size: 12pt;
+	line-height: 1.4;
+}
+
+h1 {
+	font-size: 40pt;
+	margin: 0;
+	margin-bottom: 20px;
+	line-height: 1;
+	color: #6a9bd1; /* Light pastel blue */
+}
+
+h2 {
+	margin: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	line-height: 1;
+	color: #f39c12; /* Light pastel orange */
+}
+
+h3 {
+	font-size: 16pt;
+	color: #95A5A6; /* Keeping this as is for contrast */
+	margin: 0;
+}
+
+#title {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+#mainContainer {
+	width: 70%;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#leftContainer {
+	float: left;
+	width: 50%;
+}
+
+#rightContainer {
+	float: right;
+	width: 50%;
+}
+
+#memoryContainer {
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	height: 80vh;
+	width: 150px;
+	background-color: #d1e7dd; /* Light pastel green */
+}
+
+#memory {
+	float: right;
+	width: 150px;
+	height: 100%;
+}
+
+#block {
+	box-sizing: border-box;
+	border: 1px solid #b2d3e8; /* Light pastel blue border */
+	width: 100%;
+}
+
+#blockLabel {
+	text-align: center;
+	font-weight: bold;
+	padding: 2px;
+}
+
+#logBoxContainer {
+	width: 100%;
+	float: left;
+	font-family: Consolas, monospace;
+	height: 400px;
+	overflow: hidden;
+
+/*		box-sizing: border-box;
+	border: 1px solid #FFFFFF;*/
+}
+
+#logBox {
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	padding-right: 20px; /* Hides scrollbar */
+	display: none;
+	background-color: #f8d7da; /* Light pastel red */
+}
+
+.available {
+	background-color: #c3e6cb; /* Light pastel green */
+}
+
+.unavailable {
+	background-color: #f5c6cb; /* Light pastel red */
+}
+
+#processTable {
+	width: 400px;
+}
+
+#processTable th {
+	text-align: left;
+	padding-right: 20px;
+	color: #6c757d; /* Darker text for table headers */
+}
+
+#processTable td {
+	color: #495057; /* Darker text for table cells */
+}
+
+input {
+	height: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 2px solid #95A5A6; /* Keeping this as is for contrast */
+	border-radius: 6px;
+	width: 200px;
+	margin: 10px;
+	margin-left: 0;
+	background-color: #ffffff; /* White background for inputs */
+}

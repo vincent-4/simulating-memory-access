@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Memory Management Simulation</title>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+	<link href='style.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div id="mainContainer">
+	<div id="title">
+		<h1>Memory Management</h1>
+		<h3>An Online Simulation</h3>
+	</div>
+
+	<div id="rightContainer">
+		<div id="memoryContainer">
+			<div id="memory"></div>
+		</div>
+	</div>
+
+	<div id="leftContainer">
+		<h2>Control Panel</h2>
+		<div class="checkbox-group">
+			<label><input type="checkbox" id="firstFit"> Use First Fit (instead of Best Fit)</label><br />
+			<label><input type="checkbox" id="fragmentation"> Allow Internal Fragmentation (Disable Partitioning)</label><br />
+			<label><input type="checkbox" id="compaction"> Use Compaction</label><br />
+		</div>
+
+		<h2>Fragmentation Info</h2>
+		<table>
+			<tr><td>Internal Fragmentation:</td><td id="internalFragmentation">0</td></tr>
+			<tr><td>External Fragmentation:</td><td id="externalFragmentation">0</td></tr>
+		</table>
+
+		<h2>Add Process</h2>
+		<form id="processForm">
+			<input type="number" id="ProcessSize" name="processSize" placeholder="Process size (K)" autocomplete="off" required />
+			<input type="number" id="ProcessTime" name="processTime" placeholder="Process time (units)" autocomplete="off" required />
+			<button type="submit">Add Process</button>
+		</form>
+
+		<h2>Process Queue</h2>
+		<table id="processTable">
+			<thead>
+			<tr><th>Process ID</th><th>Size (K)</th><th>Time Units Remaining</th></tr>
+			</thead>
+			<tbody></tbody>
+		</table>
+
+		<h2>Debug Log</h2>
+		<div id="logBoxContainer">
+			<div id="logBox">DEBUG LOG<br></div>
+		</div>
+	</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
