@@ -1,6 +1,7 @@
 # Memory Management Simulator
 
-This simulator helps computer science students and enthusiasts understand memory allocation visually and interactively.
+This simulator helps computer science students and enthusiasts understand memory allocation visually and interactively. Inspired by CS106B's dynamic memory lecture.
+
 ![Alt text](https://i.imgur.com/5CY5NB6.png)
 
 ## Features
